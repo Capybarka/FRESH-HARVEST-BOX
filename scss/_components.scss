@@ -10,6 +10,27 @@
     object-fit: contain;
 }
 
-.steps-card{
-    
+.steps-card {
+    padding: 37px 45px 37px 20px;
+    margin-bottom: 80px;
+    width: 32%;
+    background-color: $white;
+    color: $black;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    &-number-block {
+        padding: 15px 42px;
+        background-color: $red;
+        color: $white;
+        white-space: nowrap;
+        font-size: 18px;
+        line-height: 24px;
+        border-radius: 200px;
+    }
+
+    &-description {}
 }

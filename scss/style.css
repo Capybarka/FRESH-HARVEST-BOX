@@ -124,6 +124,26 @@ header {
      object-fit: contain;
 }
 
+.steps-card {
+  padding: 37px 45px 37px 20px;
+  margin-bottom: 80px;
+  width: 32%;
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.steps-card-number-block {
+  padding: 15px 42px;
+  background-color: #AE1332;
+  color: #fff;
+  white-space: nowrap;
+  font-size: 18px;
+  line-height: 24px;
+  border-radius: 200px;
+}
 .header__nav {
   padding-top: 16px;
   padding-bottom: 16px;
@@ -131,7 +151,6 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-
 .header__nav_list {
   display: flex;
   gap: 20px;
@@ -151,12 +170,14 @@ header {
   background-color: #AE1332;
 }
 
+.steps__section {
+  margin-bottom: 150px;
+}
 .steps__section_text-wrapper {
   max-width: 625px;
   margin: 0 auto;
   margin-bottom: 45px;
 }
-
 .steps__section_heading {
   margin-bottom: 15px;
   text-align: center;
@@ -166,9 +187,30 @@ header {
   letter-spacing: -1.6px;
   text-transform: uppercase;
 }
-
 .steps__section_description {
   max-width: 510px;
   margin: 0 auto;
   text-align: center;
+}
+
+.steps-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.steps-card-number-block-2 {
+  background-color: #A4CB66;
+}
+
+.steps-card-number-block-3 {
+  background-color: #F5CE13;
+}
+
+.steps__section_gif {
+  max-width: 860px;
+  margin: 0 auto;
+}
+.steps__section_gif img {
+  border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */
