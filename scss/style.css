@@ -99,13 +99,13 @@ header {
   color: #AE1332;
 }
 
-.topContainer {
+.maxContainer {
   max-width: 1245px;
   padding: 0 15px;
   margin: 0 auto;
 }
 
-.mainContainer {
+.minContainer {
   max-width: 1186px;
   padding: 0 15px;
   margin: 0 auto;
@@ -145,4 +145,30 @@ header {
 
 .header__logo_wrapper {
   display: flex;
+}
+
+.main {
+  background-color: #AE1332;
+}
+
+.steps__section_text-wrapper {
+  max-width: 625px;
+  margin: 0 auto;
+  margin-bottom: 45px;
+}
+
+.steps__section_heading {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -1.6px;
+  text-transform: uppercase;
+}
+
+.steps__section_description {
+  max-width: 510px;
+  margin: 0 auto;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
