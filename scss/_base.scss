@@ -1,3 +1,5 @@
+@import "variable.scss";
+
 body {
     font-family: 'DM Sans', sans-serif;
     color: #FFF;
@@ -9,11 +11,14 @@ body {
     letter-spacing: -0.56px;
 }
 
+header {
+    color: $red;
+}
+
 .topContainer {
     max-width: 1245px;
     padding: 0 15px;
     margin: 0 auto;
-    background-color: $red;
 }
 
 .mainContainer {
