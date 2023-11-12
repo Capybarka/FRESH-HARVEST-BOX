@@ -3,3 +3,30 @@
 @import "components.scss";
 @import "variable.scss";
 @import "animation.scss";
+@import "layout.scss";
+@import "function.scss";
+
+
+//  header
+.header__nav {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav_list {
+    display: flex;
+    gap: 20px;
+}
+
+.header__logo_title {
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header__logo_wrapper {
+    display: flex;
+}
