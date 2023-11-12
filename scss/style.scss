@@ -38,28 +38,6 @@
 // sterps section
 .steps__section {
     margin-bottom: 150px;
-
-    &_text-wrapper {
-        max-width: 625px;
-        margin: 0 auto;
-        margin-bottom: 45px;
-    }
-
-    &_heading {
-        margin-bottom: 15px;
-        text-align: center;
-        font-size: 40px;
-        font-weight: 500;
-        line-height: 44px;
-        letter-spacing: -1.6px;
-        text-transform: uppercase;
-    }
-
-    &_description {
-        max-width: 510px;
-        margin: 0 auto;
-        text-align: center;
-    }
 }
 
 .steps-cards {
@@ -86,3 +64,62 @@
 }
 
 //organic__section ///////////
+.organic__cards {
+    margin-bottom: 45px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+
+    &-1 {
+        color: $white;
+        background-color: $strawberry;
+    }
+
+    &-2 {
+        color: $white;
+        background-color: $yellow;
+    }
+
+    &-3 {
+        color: $white;
+        background-color: $watermelon;
+    }
+
+    &-4 {
+        color: $white;
+        background-color: $lime;
+    }
+
+    &-5 {
+        color: $white;
+        background-color: $apple;
+    }
+
+    &-6 {
+        color: $white;
+        background-color: $peach;
+    }
+
+    &-7 {
+        color: $white;
+        background-color: $plums;
+    }
+
+    &-8 {
+        color: $white;
+        background-color: $orange;
+    }
+
+    &-9 {
+        color: $white;
+        background-color: $kiwi;
+    }
+}
+
+.order-link{
+    display: block;
+    background-color: #9DC262;
+}
