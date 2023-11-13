@@ -204,6 +204,46 @@ header {
   border-radius: 200px;
 }
 
+.order-link {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15rem;
+  width: 11.5rem;
+  height: 11.5rem;
+  border-radius: 50%;
+  background-color: #9DC262;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s, color 0.5s;
+}
+.order-link-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transform: rotate(-20deg);
+}
+.order-link img {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+.order-link p {
+  text-align: center;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 133.333% */
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+}
+.order-link:hover {
+  color: #9DC262;
+  background-color: #fff;
+}
+
 .header__nav {
   padding-top: 16px;
   padding-bottom: 16px;
@@ -298,9 +338,4 @@ header {
 .organic__cards-9 {
   color: #fff;
   background-color: #98B37E;
-}
-
-.order-link {
-  display: block;
-  background-color: #9DC262;
 }/*# sourceMappingURL=style.css.map */

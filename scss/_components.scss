@@ -100,3 +100,53 @@
         border-radius: 200px;
     }
 }
+
+// круглая кнопка для заказа
+.order-link {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15rem;
+
+    width: 11.5rem;
+    height: 11.5rem;
+
+    border-radius: 50%;
+    background-color: #9DC262;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-color .5s, color .5s;
+
+    &-wrapper {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+        transform: rotate(-20deg);
+    }
+
+    img {
+        width: 1.4rem;
+        height: 1.4rem;
+
+    }
+
+    p {
+        text-align: center;
+        text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
+        font-family: DM Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 133.333% */
+        letter-spacing: -0.72px;
+        text-transform: uppercase;
+    }
+
+    &:hover {
+        color: #9DC262;
+        background-color: $white;
+    }
+}
