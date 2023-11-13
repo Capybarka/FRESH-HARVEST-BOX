@@ -144,4 +144,60 @@
 .footer {
     background-color: $white;
     color: $red;
+
+    &_container {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &_content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &_content img {
+        max-width: 34.9rem;
+        margin-bottom: 2rem;
+        align-self: center;
+    }
+
+    &__logo__wrapper {
+        align-self: center;
+    }
+
+    &__social__image_blocks {
+        margin-bottom: 4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__social__image_block {
+        // padding: .8rem;
+        // width: 4.4rem;
+        // border-radius: 10px;
+        // border: 1px solid #AE1332;
+    }
+
+    &__social__image_block img {
+        // width: 2.8rem;
+        // height: 2.8rem;
+    }
+
+    &__social_number,
+    &__social_addres {
+        display: block;
+        margin-bottom: 2rem;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.36px;
+    }
+
+    &__social_addres {
+        margin-bottom: 0;
+    }
 }

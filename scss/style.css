@@ -124,6 +124,7 @@ header {
 }
 .nav_list {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
@@ -366,4 +367,40 @@ header {
 .footer {
   background-color: #fff;
   color: #AE1332;
+}
+.footer_container {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_content {
+  display: flex;
+  flex-direction: column;
+}
+.footer_content img {
+  max-width: 34.9rem;
+  margin-bottom: 2rem;
+  align-self: center;
+}
+.footer__logo__wrapper {
+  align-self: center;
+}
+.footer__social__image_blocks {
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__social_number, .footer__social_addres {
+  display: block;
+  margin-bottom: 2rem;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.36px;
+}
+.footer__social_addres {
+  margin-bottom: 0;
 }/*# sourceMappingURL=style.css.map */
