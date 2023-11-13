@@ -15,16 +15,16 @@
 <body>
     <header class="header">
         <div class="maxContainer">
-            <nav class="header__nav">
-                <ul class="header__nav_list">
-                    <li class="header__nav_item"><a href="#!">How It Works</a></li>
-                    <li class="header__nav_item"><a href="#!">Fruits</a></li>
-                    <li class="header__nav_item"><a href="#!">Contacts</a></li>
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#!">How It Works</a></li>
+                    <li class="nav_item"><a href="#!">Fruits</a></li>
+                    <li class="nav_item"><a href="#!">Contacts</a></li>
                 </ul>
 
-                <div class="header__logo_wrapper">
-                    <img class="logo" src="/img/header/logo.svg" alt="logo-img">
-                    <h1 class="header__logo_title"><a href="#!">fresh harvest box</a></h1>
+                <div class="logo__wrapper">
+                    <img class="logo__wrapper_img" src="/img/header/logo.svg" alt="logo-img">
+                    <h1 class="logo__wrapper_title"><a href="#!">fresh harvest box</a></h1>
                 </div>
 
                 <div class="header__basket_wrapper">
@@ -165,16 +165,55 @@
                         <div class="organic__card_info">90 UAH / kg</div>
                     </div>
                 </div>
-
-                <a href="#!" class="order-link">
-                    <div class="order-link-wrapper">
-                        <img src="/img/main/array.svg" alt="array">
-                        <p>order</p>
-                    </div>
-                </a>
-                <!-- переделатьь через псевдоэлемент -->
             </div>
         </section>
+
+        <section class="box__section">
+            <div class="maxContainer">
+                <h2 class="box__section_title">Fresh Harvest Box has got you covered</h2>
+
+                <div class="box__section__img_wrapper">
+                    <img class="box__section_img1" src="/img/bottom-section/img-1.png" alt="img1">
+                    <img class="box__section_img2" src="/img/bottom-section/img-2.png" alt="img2">
+                </div>
+
+                <p class="box__section_description">Our boxes are packed with delicious, nutritious fruits and
+                    vegetables, perfect for anyone looking to eat healthier or
+                    support local farmers. Order your box today and start enjoying the best that nature has to offer!
+                </p>
+
+                <form class="email-form" action="#">
+                    <input class="email-form_input" type="email" placeholder="Enter email...">
+                    <button class="email-form_button">send</button>
+                </form>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="maxContainer">
+
+                <div class="footer_content">
+                    <img src="/img/bottom-section/img-footer.png" alt="">
+                    <div class="logo__wrapper">
+                        <img class="logo__wrapper_img" src="/img/header/logo.svg" alt="logo-img">
+                        <h1 class="logo__wrapper_title"><a href="#!">fresh harvest box</a></h1>
+                    </div>
+                </div>
+
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#!">How It Works</a></li>
+                    <li class="nav_item"><a href="#!">Fruits</a></li>
+                    <li class="nav_item"><a href="#!">Contacts</a></li>
+                </ul>
+
+                <div class="footer__social_wrapper">
+                    <img src="/img/social/facebook.svg" alt="facebook">
+                    <img src="/img/social/instagram.svg" alt="instagram">
+                    <img src="/img/social/youtube.svg" alt="youtube">
+                </div>
+
+            </div>
+        </footer>
     </main>
 </body>
 
